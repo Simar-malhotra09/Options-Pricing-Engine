@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main(){
-    // 100 steps starting at $30
+    // 100 steps starting @ $30
     RandomWalkGenerator rw(10, 30, 0.1);
     vector<double> walk = rw.generateWalk();
 
